@@ -1,0 +1,178 @@
+{
+  "Actor": {
+    "types": ["character"],
+    "templates": {
+      "base": {
+        "health": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "sanity": {
+          "value": 5,
+          "min": 0,
+          "max": 5
+        }
+      }
+    },
+    "character": {
+      "templates": ["base"],
+      "biography": "",
+      "attributes": {
+        "level": {
+          "value": 1
+        }
+      },
+      "abilities": {
+        "agi": {
+          "value": 0
+        },
+        "awa": {
+          "value": 0
+        },
+        "sta": {
+          "value": 0
+        },
+        "str": {
+          "value": 0
+        },
+        "wil": {
+          "value": 0
+        },
+        "pre": {
+          "value": 0
+        },
+        "per": {
+          "value": 0
+        },
+        "int": {
+          "value": 0
+        }
+      },
+      "dhins": 0,
+      "rolledHP": 0,
+      "bonusHP": 0,
+      "rolledSanity": 0,
+      "bonusSanity": 0,
+      "experience": 0,
+      "totalExperience": 0,
+      "wastah": "",
+      "enlightenment": ""
+    }
+  },
+  "Item": {
+    "types": [
+      "item",
+      "weapon",
+      "background",
+      "attribute",
+      "esotericattribute",
+      "skill",
+      "combatskill",
+      "talent",
+      "flaw",
+      "consumable",
+      "armour", 
+      "tool", 
+      "shield",
+      "method",
+      "sphere",
+      "phenomenon"
+    ],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "item": {
+      "templates": ["base"],
+      "quantity": 1,
+      "availability": ""
+    },
+    "weapon": {
+      "templates": ["base"],
+      "quantity": 1,
+      "type": "",
+      "size": 0,
+      "range": "",
+      "damage": "",
+      "properties": "",
+      "availability": ""
+    },
+    "background": {
+      "templates": ["base"],
+      "cost": 0
+    },
+    "attribute": {
+      "templates": ["base"],
+      "cost": 0
+    },
+    "esotericattribute": {
+      "templates": ["base"],
+      "cost": 0
+    },
+    "skill": {
+      "templates": ["base"],
+      "ranks": 0,
+      "specialisation": ""
+    },
+    "combatskill": {
+      "templates": ["base"],
+      "ranks": 0,
+      "specialisation": ""
+    },
+    "talent": {
+      "templates": ["base"],
+      "associatedAbility": ""
+    },
+    "flaw": {
+      "templates": ["base"],
+      "flawName": "",
+      "severity": "",
+      "associatedAbility": ""
+    },
+    "consumable": {
+      "templates": ["base"],
+      "consumableType": "",
+      "effect": "",
+      "quantity": 1,
+      "availability": ""
+    },
+    "armour": {
+      "templates": ["base"],
+      "quantity": 1,
+      "availability": "",
+      "name": "",
+      "material": "",
+      "category": "",
+      "dmgred": "",
+      "bulk": "",
+      "armorProperties": ""
+    },
+    "tool": {
+      "templates": ["base"],
+      "quantity": 1,
+      "availability": "",
+      "toolDescription": ""
+    },
+    "shield": {
+      "templates": ["base"],
+      "defenceMod": 0,
+      "bulk": 0,
+      "properties": ""
+    },
+    "method": {
+      "templates": ["base"],
+      "ranks": 0
+    },
+    "sphere": {
+      "templates": ["base"],
+      "ranks": 0,
+      "area": ""
+    },
+    "phenomenon": {
+      "templates": ["base"],
+      "table": "<table><tr><th>Channelling Time</th><td>TIME</td></tr><tr><th>Range</th><td>RANGE</td></tr><tr><th>Duration</th><td>DURATION</td></tr><tr><th>Area</th><td>AREA</td></tr><tr><th>Effect</th><td>EFFECT</td></tr><tr><th>Description</th><td>DESCRIPTION</td></tr><tr><th>Effect Potency</th><td>POTENCY</td></tr><tr><th>Difficulty</th><td>DIFFICULTY</td></tr></table>"
+    }
+  }
+}

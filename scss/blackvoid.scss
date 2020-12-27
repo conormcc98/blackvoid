@@ -1,0 +1,66 @@
+// Import utilities.
+@import 'utils/typography';
+@import 'utils/colors';
+@import 'utils/mixins';
+@import 'utils/variables';
+
+/* Global styles */
+@import 'global/window';
+@import 'global/grid';
+@import 'global/flex';
+
+/* Styles limited to blackvoid sheets */
+.blackvoid {
+  @import 'components/forms';
+  @import 'components/resource';
+  @import 'components/tabs';
+  @import 'components/items';
+}
+
+.window-app .window-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  background: url(../static/img/P1.png) repeat;
+  padding: 8px;
+  color: #191813;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.chat-message {
+  background: url(../static/img/P1.png) repeat;
+  padding: 5px;
+  color: #191813;
+  font-size: 14px;
+  font-family: 'Langar', cursive;
+  border: 2px solid black;
+}
+
+.message {
+  background: url(../static/img/P1.png) repeat;
+  padding: 5px;
+  color: #191813;
+  font-size: 14px;
+  font-family: 'Langar', cursive;
+  border: 2px solid black;
+}
+
+.sidebar-chat {
+  background: url(../static/img/ChatMessage.png) repeat;
+  color: #000000;
+}
+
+body {
+  font-family: 'Langar', cursive;
+}
+
+td {
+  text-align: center;
+}
+
+.sidebar {
+  background: url(../static/img/ChatMessage.png) repeat;
+  color: #000000;
+}
