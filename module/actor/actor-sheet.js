@@ -537,18 +537,6 @@ export class BlackVoidActorSheet extends ActorSheet {
                 }
               },
               three: {
-                label: "Initiative Roll",
-                callback: () => {
-                  let newFormula = roll.formula.slice(0, -3)
-                  let newRoll = new Roll(newFormula, {})
-
-                  newRoll.roll().toMessage({
-                    speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-                    flavor: "Initiative Roll"
-                  });
-                }
-              },
-              four: {
                 label: "Untrained Attack Roll",
                 callback: () => {
                   let newFormula = roll.formula.slice(0, -3)
