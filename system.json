@@ -24,6 +24,6 @@
   "secondaryTokenAttribute": "sanity",
   "url": "https://github.com/corndog-foundry/blackvoid",
   "manifest": "https://raw.githubusercontent.com/corndog-foundry/blackvoid/master/system.json",
-  "download": "https://github.com/corndog-foundry/blackvoid/releases/download/1.0.0/blackvoid.zip",
+  "download": "https://github.com/corndog-foundry/blackvoid/releases/download/1.0.1/blackvoid.zip",
   "license": "LICENSE.txt"
 }
