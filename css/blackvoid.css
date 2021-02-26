@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Amita&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 /* Global styles */
 .window-app {
-  font-family: "Langar", cursive;
+  font-family: "Akaya Telivigala", cursive;
 }
 
 .rollable:hover, .rollable:focus {
@@ -118,7 +116,7 @@
 
 /* Styles limited to blackvoid sheets */
 .blackvoid .item-form {
-  font-family: "Langar", cursive;
+  font-family: "Akaya Telivigala", cursive;
 }
 
 .blackvoid .sheet-header {
